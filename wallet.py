@@ -4,6 +4,7 @@ class Wallet:
     def __setAddress(self, address):
         try:
             self.__address = None
+
             if address[:2] != "0x":
                 raise ValueError("Incorrect format of the address not starting with \"0x\"")
             '''if len(address) != 42:
