@@ -13,7 +13,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 ## How it works
 
 The application asks you to provide your ETH address where you have all your NFT. Then it parses the web page:
-https://etherscan.io/nft-transfers?a=<address>
+https://etherscan.io/nft-transfers?a=your_address
 and extracts all etherscan url leading to every of your NFTs directly.
 
 After that it parses every site and sums up all last sale prices to roughly estimate worth of all your NFTs
