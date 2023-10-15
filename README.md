@@ -23,3 +23,7 @@ Application uses headless chrome browser in the background. It requires some tim
 ### Remarks
 
 Application does not work when the address has configured ENS record.
+
+### Contributing
+
+I would love your help!
